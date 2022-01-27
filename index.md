@@ -6,8 +6,8 @@ Scroll below to search of topic of my interest.
 
 ### Programming
 ### Reverse Engineering
-### CTF
-[Pico Gym write up](https://github.com/meowStryker/meowStryker.github.io/blob/master/picogym_writeup)
+### Capture The Flag (CTF)
+1. [Pico Gym challenges write up](https://github.com/meowStryker/meowStryker.github.io/blob/master/picogym_writeup)
 
 
 ### Support or Contact
