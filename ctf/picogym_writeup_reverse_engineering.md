@@ -30,8 +30,16 @@ The program simply will run **choose_greatest()** function when executed
 There are several ways of solving this challenge.
 
 
-  ##### a. Easy way
+##### a. Easy way
+Since we know that **bezos_cc_secret** variable stored the encrypted value of the flag that we want, we can just decrypt it using online ROT-47 decode tools to get the flag.
+![image](https://user-images.githubusercontent.com/36885485/153528363-5801fc48-ad2f-4cf5-9ce4-0502c6e6f8ed.png)
+
+
+**OR**
+
+We can make changes to the source code of the python code and run it to get the flag.
+![image](https://user-images.githubusercontent.com/36885485/153528483-f0b36f22-ee87-43de-b1ec-c7127961da14.png)
 
 
 
-  ##### b. Realistic way
+##### b. Realistic way
