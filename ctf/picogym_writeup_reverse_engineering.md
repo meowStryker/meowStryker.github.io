@@ -1,6 +1,6 @@
 ## PicoGym Write Up - Reverse Engineering
 <details>
-  <summary>### 3. crackme-py</summary>
+  ###<summary>3. crackme-py</summary>
 
 ![image](https://user-images.githubusercontent.com/36885485/153524871-1dbc883d-1727-49c9-8e3b-4ec720a431e7.png)
 
