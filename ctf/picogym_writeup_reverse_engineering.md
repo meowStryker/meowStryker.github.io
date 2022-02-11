@@ -1,6 +1,6 @@
 ## PicoGym Write Up - Reverse Engineering
-
-### 3. crackme-py
+<details>
+  <summary>### 3. crackme-py</summary>
 
 ![image](https://user-images.githubusercontent.com/36885485/153524871-1dbc883d-1727-49c9-8e3b-4ec720a431e7.png)
 
@@ -51,3 +51,5 @@ So what it looks like if the challenge was set to realistic mode?
 1. Reversing without source code!
 2. Source code with Obfuscation
 
+  
+</detail>
