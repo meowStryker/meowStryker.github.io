@@ -21,10 +21,13 @@ There are 2 modules of function exist in the program itself. The following are t
 
 The program simply will run **choose_greatest()** function when executed
 
+![image](https://user-images.githubusercontent.com/36885485/153527935-c5395518-0c44-4926-8102-20f792b9b8ab.png)
+
+#### Solution
 There are several ways of solving this challenge.
 
-#### a. Easy way
+  ##### a. Easy way
 
 
 
-#### b. Realistic way
+  ##### b. Realistic way
