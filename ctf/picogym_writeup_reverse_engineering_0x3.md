@@ -57,4 +57,32 @@ In rare cases, the reverser might be provided with the source code of the progra
 
 For example, the hardcoded encrypted password stored in **bezos_cc_secret** may undergone several anti-analysis technique to harden manual analysis from the reverser such as breaking the data into several parts, converting & encrypting each part, rearranging it, repeating and changing the order of those procedure for several many times. This definitely frustrated the reverser who analysed the sample!
 
-##### Finding Vulnerabilities
+##### Finding Vulnerability
+Python 2.x known to have vulnerability in its **input()** function. It will received the data as what you have entered and passed it to the program without modifying it. Means the input we type in ASCII will not be necessarily being treated as string.[1] Based on the program, this vulnerability allow us to change the flow of the program execution and help us get the flag easily in a realistic way.
+
+
+##### Exploiting input()
+This vulnerability only exist in Python 2.x but not in the latest Python 3 version. You can run it directly or compile it into python binary but make sure to use version 2.x instead of version 3.
+
+Run the following command to check your Python version
+> python -V
+
+If you want to compile the source code
+> python -m compileall crackme.py
+
+
+We can exploit the vulnerability by simple providing the program with **decode_secret(bezos_cc_secret** to any of the input. Since the **decode_secret** function itself will print out the result of decoded text, it doesn't matter about the result produced by the caller module (**choose_greatest()**) module as long as we successfully invoked **decode_secret** to serve it purposes.  
+![image](https://user-images.githubusercontent.com/36885485/153538254-b81e56d0-a04b-4b78-9e19-99fad2152065.png)
+
+![image](https://user-images.githubusercontent.com/36885485/153538181-0d3a89f5-419b-4a0b-bac3-106ac2914bc3.png)
+
+![image](https://user-images.githubusercontent.com/36885485/153537698-df3a116b-3702-4042-b273-f4aef946ed6d.png)
+
+The result is...
+  ![image](https://user-images.githubusercontent.com/36885485/153538322-ba865648-b96e-44b6-b4a2-e998a7c23b6a.png)
+You also can repeat it if you want.
+![image](https://user-images.githubusercontent.com/36885485/153538424-ecfde9a6-fa30-4fe4-b21e-3af551fbada9.png)
+
+  ---
+### Reference
+[[1] - Vulnerability in input() function – Python 2.x](https://www.geeksforgeeks.org/vulnerability-input-function-python-2-x/)
