@@ -71,7 +71,7 @@ If you want to compile the source code
 > python -m compileall crackme.py
 
 
-We can exploit the vulnerability by simple providing the program with **decode_secret(bezos_cc_secret** to any of the input. Since the **decode_secret** function itself will print out the result of decoded text, it doesn't matter about the result produced by the caller module (**choose_greatest()**) module as long as we successfully invoked **decode_secret** to serve it purposes.  
+We can exploit the vulnerability by simple providing the program with **decode_secret(bezos_cc_secret)** to any of the input. Since the **decode_secret()** itself will print out the result of decoded text, it doesn't matter about the result produced by the caller module (**choose_greatest()**) module as long as we successfully invoked **decode_secret()** to serve it purposes.  
 ![image](https://user-images.githubusercontent.com/36885485/153538254-b81e56d0-a04b-4b78-9e19-99fad2152065.png)
 
 ![image](https://user-images.githubusercontent.com/36885485/153538181-0d3a89f5-419b-4a0b-bac3-106ac2914bc3.png)
