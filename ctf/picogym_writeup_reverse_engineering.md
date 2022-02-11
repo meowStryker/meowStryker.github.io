@@ -43,3 +43,11 @@ We can make changes to the source code of the python code and run it to get the 
 
 
 ##### b. Realistic way
+There's quote saying "_If you are not making mistakes, then you're not doing anything_". 
+The reality is not as easy as what we thought including this challenge. Sometimes, easy example and challenges was provided to encourage beginners to learn reverse engineering which is clearly a very complex field in cybersecurity.
+
+So what it looks like if the challenge was set to realistic mode?
+
+1. Reversing without source code!
+2. Source code with Obfuscation
+
