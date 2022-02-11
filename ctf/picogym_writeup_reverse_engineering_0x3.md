@@ -79,7 +79,7 @@ We can exploit the vulnerability by simple providing the program with **decode_s
 ![image](https://user-images.githubusercontent.com/36885485/153537698-df3a116b-3702-4042-b273-f4aef946ed6d.png)
 
 The result is...
-  ![image](https://user-images.githubusercontent.com/36885485/153538322-ba865648-b96e-44b6-b4a2-e998a7c23b6a.png)
+![image](https://user-images.githubusercontent.com/36885485/153538322-ba865648-b96e-44b6-b4a2-e998a7c23b6a.png)
 You also can repeat it if you want.
 ![image](https://user-images.githubusercontent.com/36885485/153538424-ecfde9a6-fa30-4fe4-b21e-3af551fbada9.png)
 
